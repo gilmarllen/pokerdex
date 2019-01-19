@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<content-type>
+  <display-name>Player</display-name>
+  <super-type>base:structured</super-type>
+  <form>
+    <input name="photo" type="ImageSelector">
+      <label>Photo</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input name="description" type="TextArea">
+      <label>Description</label>
+      <config>
+      </config>
+    </input>
+  </form>
+</content-type>
